@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgoption01">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgmusic"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asatu"
+        android:id="@+id/imgset_angka"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgmusic"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_sfx_back"
+        android:id="@+id/imgbtn_sfx_back"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/imgmusic"
+        android:layout_toLeftOf="@id/imgset_angka"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_sfx_next"
+        android:id="@+id/imgbtn_sfx_next"
+        android:layout_below="@id/imgmusic"
+        android:layout_toRightOf="@id/imgset_angka"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+
+</RelativeLayout>
